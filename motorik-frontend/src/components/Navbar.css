@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav div a,
+nav div span,
+nav div button {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+nav div button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+nav div button:hover,
+nav div a:hover {
+    text-decoration: underline;
+}
